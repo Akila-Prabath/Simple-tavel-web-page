@@ -1,0 +1,103 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	background:;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+header{
+	padding:3px;
+	color:white;
+	text-align:center;
+	font-size:20px;
+	background: black;
+}
+nav ul{
+	list-style-type: none;
+	padding: 0;	
+}
+nav ul li{
+	display:inline;
+}
+nav ul li a{
+	padding-left:20px;
+	color:white;
+	text-decoration:none;
+}
+nav ul li a:hover{
+	color:dodgerblue;
+}
+.banner{
+	padding: 20px;
+	height:360px;
+	background:url(beautiful-girl-standing-viewpoint-koh-nangyuan-island-near-koh-tao-island-surat-thani-thailand.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.welcome{
+	margin-top:100px;
+	margin-bottom:100px;
+	color:white;
+	text-align:center;
+}
+.content-section{
+	background-color:lightgray;
+	padding: 20px;
+}
+.card{
+	display:block;
+	border:none;
+	border-radius:10px;
+	background-color:white;
+	color:black;
+	padding:30px;
+}
+.destinationss{
+	width: 100%;
+	display:flex;
+}
+.destination{
+	flex:33%;
+	padding:20px;
+	text-align:center;
+}
+.destination a{
+	color:black;
+	text-decoration:none;
+}
+.destination img{
+	width:300px;
+	height:350px;
+}
+.destination h3:hover{
+	color:dodgerblue;
+}
+.column{
+	width:100%;
+	display:flex;
+}
+.column1{
+	flex:30%;
+	padding:20px;
+}
+.column1 img{
+	width:200px;
+	height:250px;
+}
+.column2{
+	font-family:Cambria,serif;
+	font-size:20px;
+	padding-left:20px;
+	text-align:justify;
+}
+footer{
+	background-color:black;
+	text-align:center;
+	padding:20px;
+}
+footer p{
+	color:white;
+}
